@@ -8,6 +8,7 @@ The goal of the project is to build a sequence-to-sequence model that can genera
 
 ## Features
 
+- **Data Collection**: Used scraping techniques to collect 100 Vietnamese poems from [ThiVien](https://www.thivien.net).
 - **Dataset Preprocessing**: Tokenizes the poem dataset, builds a vocabulary, and encodes the text for training.
 - **Transformer Model**: Utilizes multi-headed self-attention layers for generating sequential text (poems).
 - **Poem Generation**: Employs a temperature-based sampling method to generate new poems by controlling the randomness of the predictions.
